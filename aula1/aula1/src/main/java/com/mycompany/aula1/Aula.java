@@ -9,7 +9,7 @@ package com.mycompany.aula1;
  *
  * @author Asus
  */
-public class rapazes_raparigas {
+public class Aula {
 
     /**
      * @param args the command line arguments
@@ -49,12 +49,6 @@ public class rapazes_raparigas {
             System.out.println("Chega no dia seguinte às: " + h + "h" + totalMin % 60 + "min");
         } else {
             System.out.println("Chega no próprio dia às: " + h + "h" + totalMin % 60 + "min");
-        }
-    }
-    
-    public static void ex3(int a, int b, int c) {
-        if(a > b && b > c) {
-            System.out.println(a + b + c);
         }
     }
     
