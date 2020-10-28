@@ -1,0 +1,7 @@
+Helder:1250
+Marisa:1300
+Renato:1400
+Mafalda:1500
+David:900
+Miguel:1100
+Andre:1400
