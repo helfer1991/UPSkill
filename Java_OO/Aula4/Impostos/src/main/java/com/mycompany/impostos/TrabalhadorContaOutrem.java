@@ -61,10 +61,4 @@ public class TrabalhadorContaOutrem extends TrabalhadorComRendimentos {
     public float calcularImpostoOR() {
         return super.getOutrosRend() * TXOR;
     }
-
-    @Override
-    public float totalImposto() {
-        return calcularImpostoRT() + calcularImpostoOR();
-    }
-    
 }

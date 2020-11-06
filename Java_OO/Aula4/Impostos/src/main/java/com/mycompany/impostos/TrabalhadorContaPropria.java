@@ -56,11 +56,4 @@ public class TrabalhadorContaPropria extends TrabalhadorComRendimentos {
         }
         return imposto;
     }
-
-    @Override
-    public float totalImposto() {
-        return calcularImpostoRT() + calcularImpostoOR();
-    }
-    
-    
 }

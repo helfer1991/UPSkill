@@ -48,5 +48,7 @@ public abstract class TrabalhadorComRendimentos extends Contribuinte {
     public abstract float calcularImpostoOR();
     
     @Override
-    public abstract float totalImposto();
+    public float totalImposto() {
+        return calcularImpostoRT() + calcularImpostoOR();
+    }
 }

@@ -24,7 +24,7 @@ public class MainContribuinte {
         Reformado c6 = new Reformado("Manuel", "Porto", 0, 11000);
         Desempregado c7 = new Desempregado("Daniel", "Porto", 6000, 36);
         Desempregado c8 = new Desempregado("Catia", "Lisboa", 0, 70);
-        
+  
         //b
         Contribuinte[] contribuintes = new Contribuinte[10];
         contribuintes[0] = c1;
