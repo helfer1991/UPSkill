@@ -10,8 +10,8 @@ package com.mycompany.creditobancario;
  * @author Asus
  */
 public class CreditoAutomovel extends CreditoConsumo {
-    private static final double TXJUROANUAL = 0.6;
-    private static final double TXDESCONTO = 0.1;
+    private static final double TXJUROANUAL = 6;
+    private static final double TXDESCONTO = 1;
     private static final int MESESDESCONTO = 24;
     
     public CreditoAutomovel(String nomeCliente, String profissao, int montante, int prazoFinanciamento) {
@@ -36,7 +36,7 @@ public class CreditoAutomovel extends CreditoConsumo {
         
         if(super.getPrazoFinanciamento() <= MESESDESCONTO) {
             while(montanteEmprestimo > 0) {
-                totalJuros += (montanteEmprestimo * txJuroMensal) * (1 - TXDESCONTO);
+                totalJuros += (montanteEmprestimo * txJuroMensal) * (1 - TXDESCONTO/100);
                 montanteEmprestimo -= mensalidade;
             }
         } else {

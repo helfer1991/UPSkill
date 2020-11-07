@@ -13,7 +13,7 @@ public class CreditoEducacao extends CreditoConsumo {
     private int periodoCarencia;
     
     private static final int PERIODOCARENCIA_OMISSO = 12;
-    private static final double TXJUROANUAL = 0.02;
+    private static final double TXJUROANUAL = 2;
     
     public CreditoEducacao() {
         super();
